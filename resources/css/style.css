@@ -1,0 +1,143 @@
+html{
+  font-size: 18px;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+/*main header styling*/
+
+header{
+  background-image: url(../images/glasses-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31rem;
+
+}
+
+/*top header bar*/
+
+header .top-header{
+  display: flex;
+  background-color: cadetblue;
+  padding: 1rem 0;
+  position: relative;
+  top: 1rem;
+  color: white;
+}
+
+header .logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+header img {
+  height: 1.5rem;
+  margin: 0 1rem 0 2rem;
+}
+
+header span{
+  margin-right: 2rem;
+
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+/*h1*/
+
+ header h1{
+  display: inline-block;
+  float: right;
+  margin-top: 10rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+}
+
+/*services*/
+
+.services{
+  display: flex;
+  justify-content: center;
+}
+
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.service-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-image img{
+  width: 3.5rem;
+}
+
+.service span{
+  text-align: center;
+}
+
+/*business-info*/
+
+.business-info{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.title{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+  background-color: cadetblue;
+  color: white;
+}
+
+.Philosophy {
+  margin-right: 5%;
+}
+
+/*footer*/
+
+footer{
+  background-color: azure;
+}
+footer .container{
+  display: flex;
+  align-items: center;
+}
+
+footer img{
+  margin: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+}
